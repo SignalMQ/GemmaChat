@@ -32,6 +32,8 @@ namespace GemmaChat.Application.Services
             if (message.Text is not { } messageText) return;
             if (message.Text.StartsWith('/')) return;
 
+            messageText = messageText.Replace("@"+(await client.GetMe()).Username, "");
+
             var user = await llmService.GetUserAsync(update.Message.Chat.Id) 
                 ?? await llmService.CreateUserAsync(update.Message.Chat);
 
