@@ -9,8 +9,6 @@ This project allows you to link a running model in your local [LM Studio](https:
 - Reactions ❌
 - Pictures ❌
 
-I must admit right away that I didn't think about interacting with a bot in a group, so I don't know if it will work.
-
 ## Where to start:
 1) First, launch LM Studio, download the model.
 2) Enable developer mode and launch the server
