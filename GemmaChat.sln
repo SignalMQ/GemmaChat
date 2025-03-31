@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemmaChat.Domain", "GemmaChat.Domain\GemmaChat.Domain.csproj", "{CB2990D2-F3BF-4580-B374-5E19158D169E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemmaChat.Infrastructure", "GemmaChat.Infrastructure\GemmaChat.Infrastructure.csproj", "{AE5FC4D8-E67C-4ECD-AE76-C1861967299A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemmaChat.Service", "GemmaChat.Service\GemmaChat.Service.csproj", "{8EA716E9-CDA2-7A90-1397-D25F5DB33A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemmaChat.Application", "GemmaChat.Application\GemmaChat.Application.csproj", "{3ED32E76-CDEE-4F87-B65B-A099FAB9887E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB2990D2-F3BF-4580-B374-5E19158D169E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2990D2-F3BF-4580-B374-5E19158D169E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2990D2-F3BF-4580-B374-5E19158D169E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2990D2-F3BF-4580-B374-5E19158D169E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5FC4D8-E67C-4ECD-AE76-C1861967299A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5FC4D8-E67C-4ECD-AE76-C1861967299A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5FC4D8-E67C-4ECD-AE76-C1861967299A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5FC4D8-E67C-4ECD-AE76-C1861967299A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA716E9-CDA2-7A90-1397-D25F5DB33A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA716E9-CDA2-7A90-1397-D25F5DB33A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA716E9-CDA2-7A90-1397-D25F5DB33A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA716E9-CDA2-7A90-1397-D25F5DB33A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED32E76-CDEE-4F87-B65B-A099FAB9887E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED32E76-CDEE-4F87-B65B-A099FAB9887E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED32E76-CDEE-4F87-B65B-A099FAB9887E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED32E76-CDEE-4F87-B65B-A099FAB9887E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB0A789D-AFB0-4510-B413-F6CC893E8C7E}
+	EndGlobalSection
+EndGlobal
