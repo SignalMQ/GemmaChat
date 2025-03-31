@@ -14,12 +14,12 @@ I must admit right away that I didn't think about interacting with a bot in a gr
 ## Where to start:
 1) First, launch LM Studio, download the model.
 2) Enable developer mode and launch the server
-2) Clone this project locally and open it in [Visual Studio](https://visualstudio.microsoft.com/ru/)
-3) Open appsettings.json, there you will see the following parameters:
+3) Clone this project locally and open it in [Visual Studio](https://visualstudio.microsoft.com/ru/)
+4) Open appsettings.json, there you will see the following parameters:
 - `BotToken` - the token used to interact with the Telegram bot interface
 - `LLM` - the address to the server, which is shown in LM Studio when switching to the Development tab
-- `Sqlite` - the connection string for the local database, usually a path to the `*.db` file
-4) There are various configurations in the `Constant.cs` file, they can also be changed depending on the needs. There are parameters such as:
+- `Sqlite` - the connection string for the local database, usually a path to the `*.db` file (created automatically)
+5) There are various configurations in the `Constant.cs` file, they can also be changed depending on the needs. There are parameters such as:
 - `Completions` - endpoint for receiving a response from LLM
 - `List` - endpoint for receiving a list of models (I do not use it yet)
 - `Model` - default model identifier, you can see it in LM Studio in the Development section
