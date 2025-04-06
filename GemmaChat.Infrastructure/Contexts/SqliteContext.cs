@@ -15,7 +15,7 @@ namespace GemmaChat.Infrastructure.Contexts
 
 
         public DbSet<User> Users { get; set; }
-        public DbSet<Conversation> Converstations { get; set; }
+        public DbSet<Conversation> Conversations { get; set; }
         public DbSet<Message> Messages { get; set; }
         public DbSet<Content> Contents { get; set; }
         public DbSet<ImageUrl> ImageUrls { get; set; }
