@@ -2,11 +2,11 @@
 
 namespace GemmaChat.Application.Dto
 {
-    public class MessageDto
+    public class ResponseMessageDto
     {
         [JsonPropertyName("role")]
         public string Role { get; set; } = string.Empty;
         [JsonPropertyName("content")]
-        public List<ContentDto> Content { get; set; } = new List<ContentDto>();
+        public string Content { get; set; } = string.Empty;
     }
 }

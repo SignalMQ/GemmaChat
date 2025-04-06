@@ -5,9 +5,9 @@ This project allows you to link a running model in your local [LM Studio](https:
 
 ## What types of interactions are currently implemented:
 - Messages ✅
+- Pictures ✅
 - Edited messages ❌
 - Reactions ❌
-- Pictures ❌
 
 ## Where to start:
 1) First, launch LM Studio, download the model.
