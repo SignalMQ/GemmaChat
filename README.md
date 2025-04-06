@@ -8,6 +8,7 @@ This project allows you to link a running model in your local [LM Studio](https:
 - Pictures ✅
 - Edited messages ❌
 - Reactions ❌
+- Voice ❌
 
 ## Where to start:
 1) First, launch LM Studio, download the model.
