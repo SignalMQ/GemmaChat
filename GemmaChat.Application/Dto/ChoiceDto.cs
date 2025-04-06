@@ -11,6 +11,6 @@ namespace GemmaChat.Application.Dto
         [JsonPropertyName("finish_reason")]
         public string FinishReason { get; set; } = string.Empty;
         [JsonPropertyName("message")]
-        public MessageDto Message { get; set; } = new MessageDto();
+        public ResponseMessageDto Message { get; set; } = new ResponseMessageDto();
     }
 }
