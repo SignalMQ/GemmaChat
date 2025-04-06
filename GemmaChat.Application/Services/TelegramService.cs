@@ -84,7 +84,8 @@ namespace GemmaChat.Application.Services
             foreach (var responseMessage in responseMessages)
                 await botClient.SendMessage(
                     chatId: message.Chat.Id,
-                    text: responseMessage,
+                    text: EscapeCharacters(responseMessage),
+                    parseMode: ParseMode.MarkdownV2,
                     cancellationToken: token);
         }
 
@@ -101,6 +102,26 @@ namespace GemmaChat.Application.Services
                 ".heic" => "image/heic",
                 _ => throw new NotSupportedException($"Format {extension} is not supported.")
             };
+        }
+
+        public static string EscapeCharacters(string content)
+        {
+            return content
+                .Replace("[", "\\[")
+                .Replace("]", "\\]")
+                .Replace("(", "\\(")
+                .Replace(")", "\\)")
+                .Replace("~", "\\~")
+                .Replace(">", "\\>")
+                .Replace("#", "\\#")
+                .Replace("+", "\\+")
+                .Replace("-", "\\-")
+                .Replace("=", "\\=")
+                .Replace("|", "\\|")
+                .Replace("{", "\\{")
+                .Replace("}", "\\}")
+                .Replace(".", "\\.")
+                .Replace("!", "\\!");
         }
     }
 }
