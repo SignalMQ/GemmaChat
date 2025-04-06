@@ -5,9 +5,9 @@ This project allows you to link a running model in your local [LM Studio](https:
 
 ## What types of interactions are currently implemented:
 - Messages ✅
+- Pictures ✅
 - Edited messages ❌
 - Reactions ❌
-- Pictures ❌
 
 I must admit right away that I didn't think about interacting with a bot in a group, so I don't know if it will work.
 
