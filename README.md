@@ -16,7 +16,7 @@ This project allows you to link a running model in your local [LM Studio](https:
 3) Clone this project locally and open it in [Visual Studio](https://visualstudio.microsoft.com/ru/)
 4) Open appsettings.json, there you will see the following parameters:
 - `BotToken` - the token used to interact with the Telegram bot interface
-- `LLM` - the address to the server, which is shown in LM Studio when switching to the Development tab
+- `LMS` - the address to the server, which is shown in LM Studio when switching to the Development tab
 - `Sqlite` - the connection string for the local database, usually a path to the `*.db` file (created automatically)
 5) There are various configurations in the `Constant.cs` file, they can also be changed depending on the needs. There are parameters such as:
 - `Completions` - endpoint for receiving a response from LLM
